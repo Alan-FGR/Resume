@@ -71,7 +71,7 @@ $CONTENT
 </html>
 """;
 
-string markdown = File.ReadAllText("Resume.md", Encoding.UTF8)
+string markdown = File.ReadAllText(args[0], Encoding.UTF8)
     .Replace("·", "<span class=\"mobile-break\"></span><span class=\"inline-nobreak\"> · <wbr></span>");
 string html = Markdown.ToHtml(markdown);
 
@@ -93,7 +93,7 @@ var headings = doc                      // searches all nested blocks
 
 html = Markdown.ToHtml(markdown, pipeline);
 
-File.WriteAllText("Resume.html", htmlTemplate
+File.WriteAllText(args[1], htmlTemplate
     .Replace("$CONTENT", html)
     .Replace("$TOC", string.Join("\n", headings)), new UTF8Encoding(true, true));
 
