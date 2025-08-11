@@ -52,7 +52,24 @@ string htmlTemplate = $$"""
   <!-- <meta name="google-site-verification" content="token"> -->
   <!-- <meta name="msvalidate.01" content="token"> -->
 
+  <!-- 1) Warm up connections -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <!-- 2) Preload the stylesheet (non-blocking) -->
+  <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+        as="style">
+  
+  <!-- 3) Load it asynchronously, then apply -->
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+        media="print" onload="this.media='all'">
+  
+  <!-- 4) Fallback for no-JS -->
+  <noscript>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap">
+  </noscript>
 
   <link rel="stylesheet" href="style.css">
 
