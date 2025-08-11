@@ -36,6 +36,7 @@ jobs:
         with:
           dotnet-version: '9.0.x'
           cache: true
+          cache-dependency-path: 'Generator/packages.lock.json'
       - name: Build HTML
         run: dotnet run ..\Resume.md ..\index.html
         working-directory: Generator
