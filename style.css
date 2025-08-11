@@ -155,7 +155,7 @@ li::marker {
 
     .breakable {
         white-space: normal; /* allow wrapping */
-        line-height: 0.8em;
+        line-height: 0.8rem;
     }
 }
 
@@ -188,7 +188,7 @@ li::marker {
 
     .toc-item {
         display: block;
-        margin-bottom: 1.4em;
+        margin-bottom: 1.4rem;
     }
 }
 
