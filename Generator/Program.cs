@@ -1,0 +1,121 @@
+﻿using Markdig;
+using Markdig.Syntax;
+using Markdig.Syntax.Inlines;
+//using QuestPDF.Fluent;
+//using QuestPDF.Infrastructure;
+using System.Diagnostics;
+using System.Text;
+using System.Text.RegularExpressions;
+
+string baseUrl = "https://alanresume.com/";
+string siteName = "Alan's Resume";
+string description = "Concise, share-friendly summary of the page.";
+//TODO /style
+string htmlTemplate = $$"""
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{siteName}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="{{baseUrl}}">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="theme-color" content="#ffffff">            --> <!-- Chrome/Android -->
+  <!-- <meta name="color-scheme" content="light dark">        --> <!-- iOS 15+ dark mode -->
+
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="{{baseUrl}}">
+  <meta property="og:title"       content="{{siteName}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:image"       content="{{baseUrl}}og-image.jpg">
+
+  <!-- <meta name="twitter:card"        content="summary_large_image"> -->
+  <!-- <meta name="twitter:site"        content="@YourHandle"> -->
+  <!-- <meta name="twitter:title"       content="{{siteName}}"> -->
+  <!-- <meta name="twitter:description" content="{{description}}"> -->
+  <!-- <meta name="twitter:image"       content="{{baseUrl}}og-image.jpg"> -->
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "{{baseUrl}}",
+    "name": "{{siteName}}",
+    "description": "{{description}}",
+    "image":   "{{baseUrl}}og-image.jpg"
+  }
+  </script>
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- <meta name="google-site-verification" content="token"> -->
+  <!-- <meta name="msvalidate.01" content="token"> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <script src="/js/app.js" defer></script> -->
+</head>
+<body>
+<header>
+  <nav>
+    $TOC
+  </nav>
+</header>
+<article>
+$CONTENT
+</article>
+</body>
+</html>
+""";
+
+string markdown = File.ReadAllText("Resume.md", Encoding.UTF8)
+    .Replace("·", "<span class=\"mobile-break\"></span><span class=\"inline-nobreak\"> · <wbr></span>");
+string html = Markdown.ToHtml(markdown);
+
+var pipeline = new MarkdownPipelineBuilder()
+                 .UseAdvancedExtensions()   // tables, footnotes, etc.
+                 .Build();
+
+MarkdownDocument doc = Markdown.Parse(markdown, pipeline);
+
+/* -------- gather the headings -------- */
+var headings = doc                      // searches all nested blocks
+               .Descendants<HeadingBlock>()        // Markdig helper
+               .Where(h => h.Level == 2) // filter by heading level
+               .Skip(1)
+               .Select(h => (ToSlug(h.Inline), GetInlineText(h.Inline)))
+               .Prepend(("", "Top")) // add a "Top" link
+               .Select(h => $"<a class=\"toc-item\" href=\"#{h.Item1}\">{h.Item2}</a>")
+               .ToList();
+
+html = Markdown.ToHtml(markdown, pipeline);
+
+File.WriteAllText("Resume.html", htmlTemplate
+    .Replace("$CONTENT", html)
+    .Replace("$TOC", string.Join("\n", headings)), new UTF8Encoding(true, true));
+
+static string GetInlineText(ContainerInline? root)
+{
+    if (root == null) return string.Empty;
+
+    var sb = new StringBuilder();
+    foreach (var node in root.Descendants())          // depth-first
+        if (node is LiteralInline lit) sb.Append(lit.Content);
+    return sb.ToString();
+}
+
+static string ToSlug(ContainerInline? root)
+{
+    var text = GetInlineText(root);
+
+    Regex _slugSanitizer = new("[^a-z0-9\\- ]+", RegexOptions.IgnoreCase);
+
+    var slug = _slugSanitizer.Replace(text.ToLowerInvariant(), "")
+                             .Trim()
+                             .Replace(' ', '-')
+                             .Replace("--", "-");
+    return slug;
+}
