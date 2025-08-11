@@ -8,17 +8,14 @@
 
 ---
 
-Seasoned software engineer dedicated to efficient, maintainable code; applies algorithms, declarative and functional paradigms, data-oriented design, and selective, pragmatic OOP. Proponent of test-driven development, favors clean, elegant solutions over unnecessary complexity, and continuously updates skills.
+Senior Software Engineer with 18 years of experience building high-performance systems, real-time networking frameworks, and secure backends. Expert in C#, C++, and cross-platform architectures, delivering scalable, maintainable, and performant solutions across gaming, fintech, and embedded systems.
 
 ## Key Points
-- 18 years of hands-on software engineering expertise.
-- Proficient in Test-Driven Development (TDD).
-- Skilled in using and managing Version Control Systems.
-- Familiarity with Agile frameworks and practices.
-- Experience mentoring peers for individual and team growth.
-- Ability in diagnosing and resolving complex technical issues.
-- Strong collaboration skills across teams of different sizes.
-- Strives for excellence in code quality and maintainability.
+- Over 18 years developing high-performance, real-time software solutions at scale.
+- Proven expertise in performance optimization, robust API design, and scalable architectures.
+- Leadership experience in team management, mentorship, and technical direction.
+- Advanced troubleshooting across diverse technologies and platforms.
+- Agile practitioner with a strong record of cross-team collaboration.
 
 ## Work Experience
 
@@ -30,7 +27,7 @@ Designing and implementing high-performance backend systems, serialization layer
 - ### Senior Software Engineer — Ringtail Technology  
 	**Stockholm, Stockholm County, Sweden**  
 _Jun 2022 – Dec 2024_  
-Built robust, scalable, and efficient subsystems for multiplayer games, emphasizing optimal performance and API quality. Delivered targeted performance improvements to meet demanding client-specific usability criteria and ensured smooth integration with existing game engines. These contributions enhanced Lemur, the technology that allows companies to deploy multiplayer infrastructure with effortless scalability.
+Built robust, scalable, and efficient subsystems for multiplayer games, with a focus on optimal performance and API robustness. Delivered targeted performance improvements to meet demanding client-specific usability criteria and ensured smooth integration with existing game engines. These contributions enhanced Lemur, the technology that allows companies to deploy multiplayer infrastructure with effortless scalability.
 
 - ### Senior Software Engineer — Senit Ltd  
 	**Madrid, Community of Madrid, Spain**  
@@ -45,7 +42,7 @@ Collaborated with diverse artists and designers worldwide using mostly the Unity
 - ### Lead Software Engineer — Archimep Construções e Instalações  
 	**Campinas, São Paulo, Brazil**  
 _Sep 2012 – Jan 2015_  
-Led development of advanced real-time rendering software, building a Blender-integrated asset pipeline and implementing cutting-edge PBR shading techniques to deliver interactive, immersive architectural visualisations.
+Led development of advanced real-time rendering software, building a Blender-integrated asset pipeline and implementing cutting-edge PBR shading techniques to deliver interactive, immersive architectural visualizations.
 
 - ### Lead Programmer — HAL-SYSTEMS  
 	**Valinhos, São Paulo, Brazil**  
@@ -69,120 +66,96 @@ Developed, deployed, and continuously enhanced an ASP-based web application for 
 
 ## Technical Skills & Professional Competencies
 
-- ### Programming Languages
+- ### Programming & Scripting Languages
 	C# · 
-C++ · 
-C · 
-Python · 
-JavaScript {.breakable}
-
-- ### Markup & Web Authoring
+	C++ · 
+	C · 
+	Python · 
+	JavaScript · 
 	HTML · 
-CSS · 
-Razor Markup · 
-Markdown {.breakable}
+	CSS · 
+	Razor Markup · 
+	Markdown {.breakable}
 
-- ### Version Control
-	Git · 
-Subversion ·
-Mercurial {.breakable}
+- ### Simulation & Game Development
+	SDL (v2 & v3-incl. new GPU API) · 
+	Nvidia PhysX (v4 & v5) · 
+	Jolt Physics ·
+	Box2D (v2 & v3) · 
+	Diligent Engine · 
+	Nvidia Blast · 
+	Recast/Detour · 
+	Bgfx · 
+	OpenGL · 
+	DirectX (pre-12) · 
+	XNA/FNA · 
+	MonoGame · 
+	Unity ·
+	Project Chrono {.breakable}
 
-- ### Collaboration
-	Azure DevOps · 
-GitHub · 
-Jira ·
-Confluence ·
-Lucidchart {.breakable}
+- ### Backend & Networking
+    .NET Core · 
+	ASP.NET Core · 
+	Entity Framework · 
+	Blazor · 
+	gRPC · 
+	SignalR · 
+	RabbitMQ · 
+	Grafana · 
+	OpenTelemetry {.breakable}
 
-- ### Deployment & CI/CD
+- ### DevOps & Deployment
 	Microsoft Azure · 
-Docker · 
-Azure Pipelines · 
-GitHub Actions {.breakable}
-
-- ### Building
-	CMake · 
-MSBuild {.breakable}
+	Docker · 
+	Azure Pipelines · 
+	GitHub Actions · 
+	Azure DevOps · 
+	GitHub · 
+	Jira ·
+	Confluence ·
+	Lucidchart ·
+	MSBuild ·
+	CMake {.breakable}
 
 - ### Debugging & Profiling
-	Visual Studio Debugger and Profiler ·
-x64dbg · 
-VTune ·
-RadDbg · 
-Renderdoc {.breakable}
-
-- ### Testing & Quality Assurance
-	xUnit · 
-MSTest · 
-Catch2 · 
-GoogleTest {.breakable}
-
-- ### Middleware & Back-End Tech
-	.NET Core · 
-ASP.NET Core · 
-Entity Framework · 
-Blazor · 
-gRPC · 
-SignalR · 
-RabbitMQ · 
-Grafana · 
-OpenTelemetry {.breakable}
-
-- ### Real-Time & Game Development
-	SDL (v2 & v3-incl. new GPU API) · 
-Nvidia PhysX (v4 & v5) · 
-Jolt Physics ·
-Box2D (v2 & v3) · 
-Diligent Engine · 
-Nvidia Blast · 
-Recast/Detour · 
-Bgfx · 
-OpenGL · 
-DirectX (pre-12) · 
-XNA/FNA · 
-MonoGame · 
-Unity {.breakable}
+	Visual Studio Debugger/Profiler ·
+	x64dbg · 
+	VTune ·
+	RadDbg · 
+	RenderDoc {.breakable}
 
 - ### Databases
 	PostgreSQL · 
-SQLite {.breakable}
+    SQLite {.breakable}
 
-- ### Design & Architectural Practices
-	Object-Oriented Programming · 
-Test-Driven Development ·
-Data-Oriented Design {.breakable}
+- ### Methodologies & Practices
+	Test-Driven Development (TDD) ·
+	Data-Oriented Design (DOD) ·
+	Object-Oriented Programming (OOP) ·
+	Agile Methodologies (Scrum, Kanban) ·
+	Version Control (Git, Mercurial, Subversion) {.breakable}
 
-- ### Technical Domains
-	High-performance Networking ·
-Web API Development · 
-Microservices · 
-Embedded Control Systems · 
-Industrial Control & Automation ·
-Computer Vision ·
-Addon Development · 
-Computer Graphics ·
-Game Development {.breakable}
+- ### Domains of Expertise
+	Scalable Networking Systems ·
+	Industrial Automation ·
+	Computer Vision ·
+	Embedded Control Systems · 
+	Web API Development · 
+	Microservices · 
+	Addon Development · 
+	Computer Graphics ·
+	Game Development {.breakable}
 
-- ### Professional Skills
-	Agile Methodologies · 
-Version Control · 
-Testing Practices · 
-Analytical Thinking · 
-Problem Solving · 
-Collaboration · 
-Mentoring {.breakable}
-
-- ### Other Past Experience
-	- **Kivy** — cross-platform Python UI framework used for an Android client.
-	- **Blender Scripting** (Python API/bpy) — worked on custom Python tooling integrating an external renderer into Blender, streamlining architectural visualisation workflows.
-	- **Qt** (v4 & v5) - worked on cross-platform desktop applications, including a Qt-based client for an access-control system.
-	- **Project Chrono** - physics simulation engine used for structural simulations and robotics.
+- ### Additional Experience
+	Kivy (Python UI for Android) · 
+	Blender Scripting (Python API) · 
+	Qt (v4 & v5) {.breakable}
 
 ## Open-source Projects
-- **minECS** (Jul 2018 – Mar 2019) — Minimal, blazing-fast Entity-Component System in modern C#.  
-- **Real Casa de Moneda App** (Jan 2021 – Jan 2022) — Partnership with the Segovia City Hall and Spain’s National Tourism Association. See [realcasamoneda.com](https://realcasamoneda.com).  
-- **SharpPhysX** (Jan 2019 – May 2019) — Modern C# bindings for NVIDIA PhysX SDK 4.  
-- **ælum** (Sep 2017 – Apr 2019) — Simple 2D game engine in C# using FNA/MonoGame backends.  
+- **minECS** (Jul 2018 – Mar 2019) — Ultra-lightweight, high-performance Entity–Component System for modern C#, designed for minimal memory overhead and optimal cache efficiency.  
+- **Real Casa de Moneda App** (Jan 2021 – Jan 2022) — Developed a cross-platform tourism application in collaboration with Segovia City Hall and Spain’s National Tourism Association, enhancing visitor engagement through interactive content. [realcasamoneda.com](https://realcasamoneda.com)  
+- **SharpPhysX** (Jan 2019 – May 2019) — Authored modern C# bindings for NVIDIA PhysX SDK 4, enabling managed environments to access high-performance native physics features.  
+- **ælum** (Sep 2017 – Apr 2019) — Simple 2D game engine built in C# with FNA/MonoGame backends, focused on simplicity, extensibility, and rapid prototyping.  
 - **Cullminator9000** (Jul 2018) — SIMD culler for 3D games, and a C# port: "Cullminator2704".  
 - **UnmanagedCollection** (Jun 2018 – Jan 2020) — Blazing-fast collection in unmanaged heap, written in modern C#.  
 
@@ -203,9 +176,9 @@ Recognized for publishing Linux tutorials and providing forum support.
 Valinhos, Brazil  
 _Jan 2002 – Dec 2002_
 
-- **Sociedade Educacional Fleming** — Higher education (incomplete)  
+- **Sociedade Educacional Fleming** — Higher education  
 Valinhos, Brazil  
-_Jan 2006 – Dec 2006_  
+_Jan 2006 – Dec 2006_ (incomplete)  
 
 ## Languages
 
