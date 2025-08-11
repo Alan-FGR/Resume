@@ -8,9 +8,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 
 string baseUrl = "https://alanresume.com/";
-string siteName = "Alan's Resume";
-string description = "Concise, share-friendly summary of the page.";
-//TODO /style
+string siteName = "Alan Ciampaglia";
+string description = "Senior Software Engineer (18+ yrs). C#/.NET & C++ expertise building real-time systems, networking frameworks, and secure backends across gaming, fintech, and embedded.";
+
 string htmlTemplate = $$"""
 <!doctype html>
 <html lang="en">
