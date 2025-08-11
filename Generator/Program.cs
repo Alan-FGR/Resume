@@ -86,9 +86,8 @@ var headings = doc                      // searches all nested blocks
                .Descendants<HeadingBlock>()        // Markdig helper
                .Where(h => h.Level == 2) // filter by heading level
                .Skip(1)
-               .Select(h => (ToSlug(h.Inline), GetInlineText(h.Inline)))
-               .Prepend(("", "Top")) // add a "Top" link
-               .Select(h => $"<a class=\"toc-item\" href=\"#{h.Item1}\">{h.Item2}</a>")
+               .Select(h => $"<a class=\"toc-item\" href=\"#{ToSlug(h.Inline)}\">{GetInlineText(h.Inline)}</a>")
+               .Prepend("<a class=\"toc-item hide-mobile\" href=\"#\">Top</a>") // add a "Top" link
                .ToList();
 
 html = Markdown.ToHtml(markdown, pipeline);
