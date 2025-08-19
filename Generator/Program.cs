@@ -95,7 +95,11 @@ string markdown = File.ReadAllText(args[0], Encoding.UTF8)
 bool isShort = !args.Contains("--full");
 
 if (isShort)
+{
+    markdown = markdown.Replace("<!--SN", "");
+    markdown = markdown.Replace("SN-->", "");
     markdown = Regex.Replace(markdown, @"<!--FS-->.*?<!--FE-->", "", RegexOptions.Singleline);
+}
 
 string html = Markdown.ToHtml(markdown);
 

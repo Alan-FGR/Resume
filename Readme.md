@@ -17,7 +17,7 @@ Senior Software Engineer with 18 years of experience building high-performance s
 - Advanced troubleshooting across diverse technologies and platforms.
 - Agile practitioner with a strong record of cross-team collaboration.
 
-## Work Experience
+## Work Experience<!--SN (Last 10 years)SN-->
 
 - ### Senior Engine Programmer — Brink Gaming
 	**Solna, Stockholm County, Sweden**  
@@ -162,7 +162,6 @@ Designing and implementing high-performance backend systems, serialization layer
 	Blender Scripting (Python API) · 
 	Qt (v4 & v5)
 	<!--BR-->
-<!--FE-->
 
 ## Open-source Projects
 - **minECS** (Jul 2018 – Mar 2019) — Ultra-lightweight, high-performance Entity–Component System for modern C#, designed for minimal memory overhead and optimal cache efficiency.  
@@ -172,7 +171,6 @@ Designing and implementing high-performance backend systems, serialization layer
 - **Cullminator9000** (Jul 2018) — SIMD culler for 3D games, and a C# port: "Cullminator2704".  
 - **UnmanagedCollection** (Jun 2018 – Jan 2020) — Blazing-fast collection in unmanaged heap, written in modern C#.  
 
-<!--FS-->
 ## Open-source Organizations
 - **Atomic Game Engine** — Collaborator  
 	_Aug 2016 – Aug 2017_  
