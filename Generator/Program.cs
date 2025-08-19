@@ -89,7 +89,14 @@ $CONTENT
 """;
 
 string markdown = File.ReadAllText(args[0], Encoding.UTF8)
+    .Replace("\r\n<!--BR-->", " {.breakable}")
     .Replace("·", "<span class=\"mobile-break\"></span><span class=\"inline-nobreak\"> · <wbr></span>");
+
+bool isShort = !args.Contains("--full");
+
+if (isShort)
+    markdown = Regex.Replace(markdown, @"<!--FS-->.*?<!--FE-->", "", RegexOptions.Singleline);
+
 string html = Markdown.ToHtml(markdown);
 
 var pipeline = new MarkdownPipelineBuilder()
@@ -106,6 +113,10 @@ var headings = doc                      // searches all nested blocks
                .Select(h => $"<a class=\"toc-item\" href=\"#{ToSlug(h.Inline)}\">{GetInlineText(h.Inline)}</a>")
                .Prepend("<a class=\"toc-item hide-mobile\" href=\"#\">Top</a>") // add a "Top" link
                .ToList();
+
+headings.Add(isShort
+    ? "<a class=\"toc-item\" href=\"/full.html\">Full Version</a>"
+    : "<a class=\"toc-item\" href=\"/\">Short Version</a>");
 
 html = Markdown.ToHtml(markdown, pipeline);
 

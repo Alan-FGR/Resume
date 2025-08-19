@@ -213,6 +213,28 @@ li::marker {
         }
 }
 
+@media print {
+    html {
+        font-size: 11px !important;
+    }
+
+    header {
+        display: none !important;
+    }
+
+    body {
+        display: block !important;
+    }
+
+    h2 {
+        padding-top: 1rem !important;
+    }
+
+    article {
+        padding-top: 0 !important;
+    }
+}
+
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;

@@ -3,7 +3,8 @@
 
 [alanqdev@gmail.com](mailto:alanqdev@gmail.com)
 · [linkedin.com/in/alandev](https://www.linkedin.com/in/alandev)
-· [github.com/Alan-FGR](https://github.com/Alan-FGR) {.breakable}
+· [github.com/Alan-FGR](https://github.com/Alan-FGR)
+<!--BR-->
 
 ---
 
@@ -38,6 +39,7 @@ Designing and implementing high-performance backend systems, serialization layer
 	_Jan 2015 – Jun 2019_  
 	Collaborated with diverse artists and designers worldwide using mostly the Unity Game Engine, while contributing to projects like the Atomic Game Engine with samples, bug fixes, and enhancements, as well as to other open-source projects on GitHub and Bitbucket.
 
+<!--FS-->
 - ### Lead Software Engineer — Archimep Construções e Instalações  
 	**Campinas, São Paulo, Brazil**  
 	_Sep 2012 – Jan 2015_  
@@ -62,6 +64,7 @@ Designing and implementing high-performance backend systems, serialization layer
 	**Campinas, São Paulo, Brazil**  
 	_Jan 2007 – Sep 2008_  
 	Developed, deployed, and continuously enhanced an ASP-based web application for vehicle pricing and fleet management, integrating a SQL Server backend and automating pricing calculations while providing ongoing performance tuning and feature updates.
+<!--FE-->
 
 ## Technical Skills & Professional Competencies
 
@@ -74,7 +77,8 @@ Designing and implementing high-performance backend systems, serialization layer
 	HTML · 
 	CSS · 
 	Razor Markup · 
-	Markdown {.breakable}
+	Markdown
+	<!--BR-->
 
 - ### Simulation & Game Development
 	SDL (v2 & v3–incl. new GPU API) · 
@@ -90,7 +94,8 @@ Designing and implementing high-performance backend systems, serialization layer
 	XNA/FNA · 
 	MonoGame · 
 	Unity ·
-	Project Chrono {.breakable}
+	Project Chrono
+	<!--BR-->
 
 - ### Backend & Networking
     .NET Core · 
@@ -101,7 +106,8 @@ Designing and implementing high-performance backend systems, serialization layer
 	SignalR · 
 	RabbitMQ · 
 	Grafana · 
-	OpenTelemetry {.breakable}
+	OpenTelemetry
+	<!--BR-->
 
 - ### DevOps & Deployment
 	Microsoft Azure · 
@@ -114,25 +120,29 @@ Designing and implementing high-performance backend systems, serialization layer
 	Confluence ·
 	Lucidchart ·
 	MSBuild ·
-	CMake {.breakable}
+	CMake
+	<!--BR-->
 
 - ### Debugging & Profiling
 	Visual Studio Debugger/Profiler ·
 	x64dbg · 
 	VTune ·
 	RadDbg · 
-	RenderDoc {.breakable}
+	RenderDoc
+	<!--BR-->
 
 - ### Databases
 	PostgreSQL · 
-    SQLite {.breakable}
+    SQLite
+	<!--BR-->
 
 - ### Methodologies & Practices
 	Test-Driven Development (TDD) ·
 	Data-Oriented Design (DOD) ·
 	Object-Oriented Programming (OOP) ·
 	Agile Methodologies (Scrum, Kanban) ·
-	Version Control (Git, Mercurial, Subversion) {.breakable}
+	Version Control (Git, Mercurial, Subversion)
+	<!--BR-->
 
 - ### Domains of Expertise
 	Scalable Networking Systems ·
@@ -143,12 +153,16 @@ Designing and implementing high-performance backend systems, serialization layer
 	Microservices · 
 	Addon Development · 
 	Computer Graphics ·
-	Game Development {.breakable}
+	Game Development
+	<!--BR-->
 
+<!--FS-->
 - ### Additional Experience
 	Kivy (Python UI for Android) · 
 	Blender Scripting (Python API) · 
-	Qt (v4 & v5) {.breakable}
+	Qt (v4 & v5)
+	<!--BR-->
+<!--FE-->
 
 ## Open-source Projects
 - **minECS** (Jul 2018 – Mar 2019) — Ultra-lightweight, high-performance Entity–Component System for modern C#, designed for minimal memory overhead and optimal cache efficiency.  
@@ -158,6 +172,7 @@ Designing and implementing high-performance backend systems, serialization layer
 - **Cullminator9000** (Jul 2018) — SIMD culler for 3D games, and a C# port: "Cullminator2704".  
 - **UnmanagedCollection** (Jun 2018 – Jan 2020) — Blazing-fast collection in unmanaged heap, written in modern C#.  
 
+<!--FS-->
 ## Open-source Organizations
 - **Atomic Game Engine** — Collaborator  
 	_Aug 2016 – Aug 2017_  
@@ -179,17 +194,18 @@ Designing and implementing high-performance backend systems, serialization layer
 	Valinhos, Brazil  
 	_Jan 2006 – Dec 2006_ (incomplete)  
 
-## Languages
+## Volunteer Work
+
+- **General Maintenance Assistant**, Menago Valley Park — _Sep 2019 – Dec 2019_  
+- **Collaborator for the Annual Giving**, Associação das Mães — _Jan 2010 – Jan 2019_  
+<!--FE-->
+
+## Spoken Languages
 
 - **English** (Native/Bilingual)  
 - **Spanish** (Professional Level)  
 - **Portuguese** (Native/Bilingual)  
 - **Italian** (Professional Level)  
-
-## Volunteer Work
-
-- **General Maintenance Assistant**, Menago Valley Park — _Sep 2019 – Dec 2019_  
-- **Collaborator for the Annual Giving**, Associação das Mães — _Jan 2010 – Jan 2019_  
 
 ## Additional Information
 

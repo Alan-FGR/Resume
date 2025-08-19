@@ -2,6 +2,7 @@
   "profiles": {
     "Generator": {
       "commandName": "Project",
+      "commandLineArgs": "Readme.md index.html",
       "workingDirectory": "C:\\Users\\alanq\\source\\repos\\JobHunting"
     }
   }

@@ -38,7 +38,10 @@ jobs:
           cache: true
           cache-dependency-path: 'Generator/packages.lock.json'
       - name: Build HTML
-        run: dotnet run ../Resume.md ../index.html
+        run: dotnet run ../Readme.md ../index.html
+        working-directory: Generator
+      - name: Build Full HTML
+        run: dotnet run ../Readme.md ../full.html --full
         working-directory: Generator
       - name: Setup Pages
         uses: actions/configure-pages@v5
