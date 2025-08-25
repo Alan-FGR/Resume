@@ -8,7 +8,7 @@
 
 ---
 
-Senior Software Engineer with 18 years of experience building high-performance systems, real-time networking frameworks, and secure backends. Expert in C#, C++, and cross-platform architectures, delivering scalable, maintainable, and optimized solutions across gaming, fintech, and embedded systems.
+Senior Software Engineer with 18 years of experience building high-performance systems, real-time networking frameworks, and secure backends. Expert in C#, C++, and cross-platform development, delivering scalable, maintainable, and optimized solutions spanning multiple domains.
 
 ## Key Points
 - Over 18 years developing high-performance, real-time software solutions at scale.
@@ -69,77 +69,88 @@ Designing and implementing high-performance backend systems, serialization layer
 ## Technical Skills & Professional Competencies
 
 - ### Programming & Scripting Languages
-	C# · 
-	C++ · 
-	C · 
-	Python · 
-	JavaScript · 
-	HTML · 
-	CSS · 
-	Razor Markup · 
+	C# ·
+	C++ ·
+	C ·
+	Python ·
+	JavaScript ·
+	HTML ·
+	CSS ·
+	Razor Markup ·
 	Markdown
 	<!--BR-->
 
-- ### Simulation & Game Development
-	SDL (v2 & v3–incl. new GPU API) · 
-	Nvidia PhysX (v4 & v5) · 
-	Jolt Physics ·
-	Box2D (v2 & v3) · 
-	Diligent Engine · 
-	Nvidia Blast · 
-	Recast/Detour · 
-	Bgfx · 
-	OpenGL · 
-	DirectX (pre-12) · 
-	XNA/FNA · 
-	MonoGame · 
-	Unity ·
-	Project Chrono
-	<!--BR-->
-
 - ### Backend & Networking
-    .NET Core · 
-	ASP.NET Core · 
-	Entity Framework · 
-	Blazor · 
-	gRPC · 
-	SignalR · 
-	RabbitMQ · 
-	Grafana · 
+    .NET Core ·
+	ASP.NET Core ·
+	Entity Framework ·
+	Blazor ·
+	gRPC ·
+	SignalR ·
+	RabbitMQ ·
+	Grafana ·
 	OpenTelemetry
 	<!--BR-->
 
-- ### DevOps & Deployment
-	Microsoft Azure · 
-	Docker · 
-	Azure Pipelines · 
-	GitHub Actions · 
-	Azure DevOps · 
-	GitHub · 
-	Jira ·
-	Confluence ·
-	Lucidchart ·
+- ### Simulation & Game Development
+	Jolt Physics ·
+	Nvidia PhysX (v4 & v5) ·
+	SDL (v2 & v3–incl. new GPU API) ·
+	MonoGame ·
+	XNA/FNA ·
+	Diligent ·
+	Unity ·
+	Bgfx ·
+	OpenGL ·
+	DirectX (pre-12) ·
+	Box2D (v2 & v3) ·
+	Nvidia Blast ·
+	Recast/Detour ·
+	OpenCV ·
+	Shaders (HLSL, GLSL) ·
+	Project Chrono
+	<!--BR-->
+
+- ### Cloud, Build & Deployment
+	Microsoft Azure ·
+	GitHub Actions ·
+	Azure Pipelines ·
+	Kubernetes ·
+	Docker ·
 	MSBuild ·
 	CMake
 	<!--BR-->
 
+- ### Collaboration & Documentation
+	Azure DevOps ·
+	GitHub ·
+	Microsoft Teams ·
+	Slack · 
+	Jira ·
+	Trello ·
+	Confluence ·
+	Documentation (OpenAPI, Doxygen) ·
+	Lucidchart
+	<!--BR-->
+
 - ### Debugging & Profiling
 	Visual Studio Debugger/Profiler ·
-	x64dbg · 
+	x64dbg ·
 	VTune ·
-	RadDbg · 
+	RadDbg ·
 	RenderDoc
 	<!--BR-->
 
 - ### Databases
-	PostgreSQL · 
+	PostgreSQL ·
+	Cosmos DB ·
     SQLite
 	<!--BR-->
 
 - ### Methodologies & Practices
+	Object-Oriented Programming (OOP) ·
 	Test-Driven Development (TDD) ·
 	Data-Oriented Design (DOD) ·
-	Object-Oriented Programming (OOP) ·
 	Agile Methodologies (Scrum, Kanban) ·
 	Version Control (Git, Mercurial, Subversion)
 	<!--BR-->
@@ -148,19 +159,20 @@ Designing and implementing high-performance backend systems, serialization layer
 	Scalable Networking Systems ·
 	Industrial Automation ·
 	Computer Vision ·
-	Embedded Control Systems · 
-	Web API Development · 
-	Microservices · 
-	Addon Development · 
+	Embedded Control Systems ·
+	Web API Development ·
+	Microservices ·
 	Computer Graphics ·
 	Game Development
 	<!--BR-->
 
 <!--FS-->
 - ### Additional Experience
-	Kivy (Python UI for Android) · 
-	Blender Scripting (Python API) · 
-	Qt (v4 & v5)
+	Testing Frameworks (xUnit, MSTest, Catch2, Google Test) ·
+	VR Development (Oculus SDK, HTC Vive) ·
+	Kivy (Python UI for Android) ·
+	Blender Scripting (Python API) ·
+	Qt (v4 & v5, QML, Desktop)
 	<!--BR-->
 
 ## Open-source Projects

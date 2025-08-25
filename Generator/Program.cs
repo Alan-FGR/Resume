@@ -124,6 +124,10 @@ headings.Add(isShort
 
 html = Markdown.ToHtml(markdown, pipeline);
 
+html += isShort
+    ? "<div class=\"switcher-footer\"><a href=\"/full.html\">Full Version</a></div>"
+    : "<div class=\"switcher-footer\"><a href=\"/\">Short Version</a></div>";
+
 File.WriteAllText(args[1], htmlTemplate
     .Replace("$CONTENT", html)
     .Replace("$TOC", string.Join("\n", headings)), new UTF8Encoding(true, true));
